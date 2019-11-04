@@ -1,0 +1,53 @@
+.grid
+{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,100px);
+    grid-auto-rows: 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "header header header header"
+    "article p p aside"
+    "footer footer footer footer";   
+}
+
+header , aside , article , p , footer
+{
+    background-color: #808888;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+    align-items: center;   
+}
+
+#page-header
+{
+    grid-area: header;
+}
+
+#page-aside
+{
+    grid-area: aside;
+}
+
+#page-paragraph
+{
+    grid-area: p;
+    margin: 0;
+}
+
+#page-article
+{
+    grid-area: article;
+}
+
+#page-footer
+{
+    grid-area: footer;
+}
