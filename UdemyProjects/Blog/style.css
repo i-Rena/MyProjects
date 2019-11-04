@@ -1,0 +1,48 @@
+body
+{
+   margin: 0;
+   padding: 0;   
+   float: left;
+   background-color: pink;
+   border: 2px solid blueviolet;
+
+}
+
+img
+{
+    width: 30%;
+    float: left;
+    margin-bottom: 2.5%;   
+}
+
+
+.first
+{
+    margin-left: 2.5%;
+    margin-right: 1.25%;
+}
+
+.mid
+{
+   margin-left: 1.25%;
+   margin-right: 1.25%;
+}
+
+.last
+{
+    margin-left: 1.25%;
+    margin-right: 2.5%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+div
+{
+    padding-top: 2.5%;
+    float: left;
+    background-color: yellow;
+    border: 2px solid red;
+}
