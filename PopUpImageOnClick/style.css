@@ -1,0 +1,22 @@
+body{
+    
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 250px;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+#image-holder{
+    width: 100px;
+    height: 100px;
+    
+}
